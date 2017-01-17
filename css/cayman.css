@@ -65,9 +65,18 @@ a {
 
 
 }
+
+.page-header img {
+  
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem 0rem 0rem 0rem;
+}
   @media screen and (min-width: 64em) {
     .page-header {
-      padding: 5rem 6rem 0rem 6rem; } 
+      padding: 5rem 6rem 0rem 6rem; 
+      } 
     .page-header img {
         height: 340px;
     }
@@ -83,7 +92,7 @@ a {
     }
   @media screen and (max-width: 42em) {
     .page-header {
-      padding: 2rem 1rem 0rem 1rem;  } 
+      padding: 2rem 0rem 0rem 0rem;  } 
 
 .page-header img {
         height: 240px;

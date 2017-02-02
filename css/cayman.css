@@ -76,42 +76,44 @@ a {
     margin-right: auto;
     padding: 0rem 0rem 0rem 0rem;
 }
- .page-header .play-store-link {
-    margin-top: 5rem;
+
+.page-header h2 {
+   margin-top: 7rem;
+}
+
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 5rem 6rem 0rem 6rem; 
+    } 
+  .page-header .logo {
+      height: 340px;
+  }
+
+  .page-header .play-store-link {
+    height: 100px;
   }
 
 
-  @media screen and (min-width: 64em) {
-    .page-header {
-      padding: 5rem 6rem 0rem 6rem; 
-      } 
-    .page-header .logo {
-        height: 340px;
-    }
 
-    .page-header .play-store-link {
-      height: 100px;
-    }
+  }
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-header {
+    padding: 3rem 4rem 0rem 4rem;  \
+  } 
 
+  .page-header .logo {
+      height: 290px;
+  }
 
 
-    }
-  @media screen and (min-width: 42em) and (max-width: 64em) {
-    .page-header {
-      padding: 3rem 4rem 0rem 4rem;  } 
+  .page-header .play-store-link {
+    height: 90px;
+  }
 
-.page-header .logo {
-        height: 290px;
-    }
-
-.page-header .play-store-link {
-      height: 90px;
-    }
-
-    }
-  @media screen and (max-width: 42em) {
-    .page-header {
-      padding: 2rem 0rem 0rem 0rem;  } 
+}
+@media screen and (max-width: 42em) {
+  .page-header {
+    padding: 2rem 0rem 0rem 0rem;  } 
 
 .page-header .logo {
         height: 240px;

@@ -78,8 +78,10 @@ a {
 }
 
 .page-header h2 {
-   margin-top: 7rem;
+   margin-top: 3rem;
 }
+
+
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -145,13 +147,13 @@ a {
   }
   @media screen and (min-width: 64em) {
     .project-tagline {
-      font-size: 2.4rem; } }
+      font-size: 1.8rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .project-tagline {
-      font-size: 2.2rem; } }
+      font-size: 1.6rem; } }
   @media screen and (max-width: 42em) {
     .project-tagline {
-      font-size: 2rem; } }
+      font-size: 1.4rem; } }
 
 .main-content {
   word-wrap: break-word; }
